@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Special Surprise ✨</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <audio id="bg-music" src="assets/music.mp3" loop></audio>
+
+  <div id="welcome-screen" class="gate-overlay">
+    <div class="gate-content">
+      <p class="tagline">A special moment curated just for you</p>
+      <h1>Ready for your surprise?</h1>
+      <button id="enter-btn" class="glow-btn">Tap to Open ✨</button>
+    </div>
+  </div>
+
+  <div class="video-background">
+    <video id="bg-video" autoplay muted loop playsinline>
+      <source src="assets/bg-video.mp4" type="video/mp4">
+    </video>
+    <div class="video-tint"></div>
+  </div>
+
+  <main id="main-content" class="content-wrapper hidden">
+    <section class="hero-card">
+      <div class="portrait-container">
+        <img src="assets/photo.jpg" alt="Birthday Star" class="portrait-img">
+        <div class="glow-ring"></div>
+      </div>
+
+      <p class="subtitle">Celebrating An Extraordinary Soul</p>
+      <h1 class="main-title">Happy Birthday, <span class="highlight">Varshita</span>!</h1>
+      
+      <div class="date-badge">
+        <span>Marking the Day: <strong>September 15</strong></span>
+      </div>
+
+      <div class="quotes-box">
+        <blockquote>
+          "Some people bring a light so bright to the world that even after they have walked into a room, the warmth lingers. Wishing you another year of grace, dreams realized, and quiet peace."
+        </blockquote>
+      </div>
+
+      <div class="floating-notes">
+        <p>✨ Forever inspiring • Unmatched energy • Pure kindness ✨</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
